@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="big">
+    <div class="con">
+        <div class="h">
+            <h2>Library subscription</h2>
+        </div>
+    <br>
+
+    <form action="" method="post">
+
+        <div class="tname">
+            <label for="tname">ชื่อ - นามสกุล (ภาษาไทย)</label>
+            <br>
+            <input type="text" id="tname" name="tname" required>
+        </div>
+
+        <br>
+
+        <div class="fname">
+            <label for="fname">ชื่อ - นามสกุล (ภาษาอังกฤษ)</label>
+            <br>
+            <input type="text" id="fname" name="fname" required>
+        </div>
+
+        <br>
+
+        <div class="gender">
+        <label for="gen">เพศ</label>
+            <br>
+            <input type="radio" id="male" name="gen" value="ชาย" required>
+            <label for="male">ชาย</label><br>
+            <input type="radio" id="female" name="gen" value="หญิง" required>
+            <label for="female">หญิง</label><br>
+            <input type="radio" id="lgbtq" name="gen" value="LGBTQ" required>
+            <label for="lgbtq">LGBTQ</label>
+        </div>
+
+        <br>
+        
+        <div class="id">
+            <label for="ID">รหัสนักศึกษา</label>
+            <br>
+            <input type="text" id="id" name="ID" required>
+        </div>
+
+        <br>
+
+        <div class="group">
+            <label for="group">คณะที่ศึกษา</label>
+            <br>
+            <select name="group" id="group" required>
+                <option value="คณะนิติศาสตร์">คณะนิติศาสตร์</option>
+                <option value="คณะพาณิชยศาสตร์และการบัญชี">คณะพาณิชยศาสตร์และการบัญชี</option>
+                <option value="คณะรัฐศาสตร์">คณะรัฐศาสตร์</option>
+                <option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+                <option value="คณะสังคมสงเคราะห์ศาสตร์">คณะสังคมสงเคราะห์ศาสตร์</option>
+                <option value="คณะสังคมวิทยาและมานุษยวิทยา">คณะสังคมวิทยาและมานุษยวิทยา</option>
+                <option value="คณะศิลปศาสตร์">คณะศิลปศาสตร์</option>
+                <option value="คณะวารสารศาสตร์และสื่อสารมวลชน">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                <option value="คณะวิทยาศาสตร์และเทคโนโลยี">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                <option value="คณะวิศวกรรมศาสตร์">คณะวิศวกรรมศาสตร์</option>
+                <option value="คณะสถาปัตยกรรมและการผังเมือง">คณะสถาปัตยกรรมและการผังเมือง</option>
+                <option value="คณะศิลปกรรมศาสตร์">คณะศิลปกรรมศาสตร์</option>
+                <option value="คณะแพทยศาสตร์">คณะแพทยศาสตร์</option>
+                <option value="คณะสหเวชศาสตร์">คณะสหเวชศาสตร์</option>
+                <option value="คณะทันตแพทยศาสตร์">คณะทันตแพทยศาสตร์</option>
+                <option value="คณะพยาบาลศาสตร์">คณะพยาบาลศาสตร์</option>
+                <option value="คณะสาธารณสุขศาสตร์">คณะสาธารณสุขศาสตร์</option>
+                <option value="คณะเภสัชศาสตร์">คณะเภสัชศาสตร์</option>
+                <option value="คณะวิทยาการเรียนรู้และศึกษาศาสตร์">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                <option value="วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
+                <option value="วิทยาลัยนวัตกรรม">วิทยาลัยนวัตกรรม</option>
+                <option value="วิทยาลัยสหวิทยาการ">วิทยาลัยสหวิทยาการ</option>
+                <option value="วิทยาลัยนานาชาติ ปรีดี พนมยงค์">วิทยาลัยนานาชาติ ปรีดี พนมยงค์</option>
+                <option value="วิทยาลัยโลกคดีศึกษา">วิทยาลัยโลกคดีศึกษา</option>
+                <option value="สถาบันเทคโนโลยีนานาชาติสิรินธร">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
+                <option value="วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="email">
+            <label for="email">ที่อยู่อีเมล (Email address)</label>
+            <br>
+            <input type="email" name="email" id="mail" required>
+        </div>
+
+        <br>
+
+        <div class="Bday">
+            <label for="dmy">วัน/เดือน/ปีเกิด</label>
+            <br>
+            <input type="date" name="BD" id="BD" required>
+        </div>
+
+        <br>
+
+        <div class="comment">
+            <label for="CM">Comments</label>
+            <br>
+            <textarea name="comment" id="comment" cols="40" rows="5"></textarea>
+        </div>
+
+        <br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+}
+
+.con {
+    margin-top: 20px;
+    border: 1px solid #DD8989;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #DD8989;
+}
+
+.h {
+    margin-top: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tname input {
+    width: 50%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.fname input {
+    width: 50%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.id input {
+    width: 50%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.group select {
+    width: 50%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.email input {
+    width: 50%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.Bday input {
+    width: 25%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.comment textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.con button {
+    padding: 10px;
+    background-color: #DD8989;
+    border-radius: 10px;
+
+}
